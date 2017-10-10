@@ -1,0 +1,27 @@
+# simply run:
+
+qmake
+make
+
+# note: maybe your QT installation only provides
+# qmake-xx (not qmake). That may be ok as long as
+# qmake-xx -v shows something like:
+# "Using Qt version 5.2.x" or higher versions
+# in this case run:
+# qmake-xx
+# make
+# 
+# in case of having multiple QT/qmake versions installed,
+# and QT5 isn't the default one, choose the QT5 one and run:
+# /path/to/qt5-version-of/qmake
+# make
+
+# to install:
+cp colorcode /usr/bin/
+
+# to uninstall:
+rm /usr/bin/colorcode
+
+# If you are still using QT version 4, look
+# for the latest QT 4 version of ColorCode at:
+# http://colorcode.laebisch.com/download
